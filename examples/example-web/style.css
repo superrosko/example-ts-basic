@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+textarea {
+    max-width: 340px;
+    max-height: 340px;
+}
