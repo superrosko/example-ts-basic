@@ -23,13 +23,13 @@ const buildConfig = {
 const outputExampleWebVoiceControl = Object.assign({}, buildConfig, {
   output: {
     filename: 'web-bundle.js',
-    path: path.resolve(__dirname, 'examples/example-ts-basic'),
+    path: path.resolve(__dirname, 'examples/example-web'),
   },
   plugins: [
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: [
         path.resolve(__dirname,
-            './examples/example-ts-basic/web-bundle.js'),
+            './examples/example-web/web-bundle.js'),
       ],
     }),
   ],
