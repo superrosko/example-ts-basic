@@ -1,6 +1,6 @@
 {
   "name": "example-ts-basic",
-  "version": "1.17.1",
+  "version": "1.17.2",
   "description": "A simple example of using TypeScript builds via the gulp and webpack with eslint tests",
   "scripts": {
     "build:dev": "gulp build && webpack --mode=development",
@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/superrosko/example-ts-basic#readme",
   "devDependencies": {
-    "@babel/cli": "^7.11.5",
-    "@babel/core": "^7.11.5",
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
     "@babel/node": "^7.10.5",
     "@babel/preset-env": "^7.11.5",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
