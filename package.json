@@ -1,6 +1,6 @@
 {
   "name": "example-ts-basic",
-  "version": "1.17.5",
+  "version": "1.17.6",
   "description": "A simple example of using TypeScript builds via the gulp and webpack with eslint tests",
   "scripts": {
     "build:dev": "gulp build && webpack --mode=development",
@@ -31,13 +31,13 @@
     "@typescript-eslint/eslint-plugin": "^3.10.1",
     "@typescript-eslint/parser": "^3.10.1",
     "clean-webpack-plugin": "^3.0.0",
-    "eslint": "^7.11.0",
+    "eslint": "^7.12.0",
     "eslint-config-google": "^0.14.0",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
     "gulp-eslint": "^6.0.0",
     "gulp-typescript": "^6.0.0-alpha.1",
-    "ts-loader": "^8.0.6",
+    "ts-loader": "^8.0.7",
     "typescript": "^3.9.7",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
