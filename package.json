@@ -1,6 +1,6 @@
 {
   "name": "example-ts-basic",
-  "version": "1.17.22",
+  "version": "1.17.23",
   "description": "A simple example of using TypeScript builds via the gulp and webpack with eslint tests",
   "scripts": {
     "build:dev": "gulp build && webpack --mode=development",
